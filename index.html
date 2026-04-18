@@ -7,7 +7,16 @@
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
 </head>
 
 <body>
@@ -129,7 +138,7 @@
   </div>
   <!-- Carousel end -->
 
-  <div class="container py-5">
+  <div class="container py-5 mb-5">
     <!-- hero section start -->
     <div class="row py-5">
       <div class="col-md-6">
@@ -258,7 +267,9 @@
         </ul>
         <button class="btn bg-white rounded-pill text-primary fw-bold w-100">Choose
           plan</button>
-        <div class="bg-danger small text-white fw-bolder rounded-pill position-absolute top-0 end-0 translate-middle px-3 py-2">Hot</div>
+        <div
+          class="bg-danger small text-white fw-bolder rounded-pill position-absolute top-0 end-0 translate-middle px-3 py-2">
+          Hot</div>
       </div>
       <div class="col-md-3 p-5">
         <h2 style="font-size: 36px;">$1200</h2>
@@ -294,8 +305,145 @@
       </div>
     </div>
     <!-- package section end -->
+
+    <!-- Happy clients section start -->
+    <div class="row py-3 py-md-5 mb-0 mb-md-5">
+      <div class="col-md-12 text-center h1">
+        <small>Happy Clients Says</small>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 row-gap-4 g-4 mb-5">
+      <div class="col-md-4">
+
+        <div class="shadow text-center p-4">
+          <p style="max-width: 253px;" class="mx-auto text-secondary mb-0">
+            Slate helps you see how
+            many more days you need
+            to work to reach your financial
+            goal for the month and year.
+          </p>
+          <img src="./images/person1.png" alt="" class="img-fluid my-3">
+          <h6><small>Regina Miles</small></h6>
+          <h6 class="text-secondary"><small>Banker</small></h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+
+        <div class="shadow text-center p-4">
+          <p style="max-width: 253px;" class="mx-auto text-secondary mb-0">
+            Slate helps you see how
+            many more days you need
+            to work to reach your financial
+            goal for the month and year.
+          </p>
+          <img src="./images/person2.png" alt="" class="img-fluid my-3">
+          <h6><small>Jone Drake</small></h6>
+          <h6 class="text-secondary"><small>Banker</small></h6>
+        </div>
+      </div>
+      <div class="col-md-4">
+
+        <div class="shadow text-center p-4">
+          <p style="max-width: 253px;" class="mx-auto text-secondary mb-0">
+            Slate helps you see how
+            many more days you need
+            to work to reach your financial
+            goal for the month and year.
+          </p>
+          <img src="./images/person3.png" alt="" class="img-fluid my-3">
+          <h6><small>Cret Yater</small></h6>
+          <h6 class="text-secondary"><small>Banker</small></h6>
+        </div>
+      </div>
+    </div>
+    <!-- Happy clients section end -->
+
+    <!-- FAQ section start -->
+    <div class="row py-3 py-md-5 mb-0 mb-md-5">
+      <div class="col-md-12 text-center h1">
+        <small>Frequently Asked Questions</small>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse
+                plugin adds the appropriate classes that we use to style each element. These classes control the overall
+                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go
+                within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="./images/faqpic.png" alt="">
+      </div>
+    </div>
+    <!-- FAQ section end -->
   </div>
 
+  <!-- Footer part start -->
+  <footer class="container-fluid bg-dark text-white">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-md-6 small d-flex justify-content-center justify-content-md-start align-items-center">
+          <p class="mb-0">Bike @2026 All rights reserved.</p>
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center gap-3">
+          <p class="mb-0">Get The App</p>
+          <img src="./images/Apple Store Badge.png" alt="" class="img-fluid">
+          <img src="./images/Goggle store.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer part end -->
 
   <script src="https://kit.fontawesome.com/5831ee6dda.js" crossorigin="anonymous"></script>
 
